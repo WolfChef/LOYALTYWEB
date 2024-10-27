@@ -133,7 +133,7 @@ form button:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f8fc;
+    background-color: #f7fcfc;
     color: #333;
 }
 
@@ -160,11 +160,23 @@ ul {
 /* Header */
 header {
     background: linear-gradient(to right, #00b09b, #96c93d);
-    color: white;
+    color: rgb(24, 111, 82);
     padding: 2em 0;
     text-align: center;
 }
+.logo {
+    position: absolute; /* Position it absolutely within the header */
+    top: 55px; /* Adjust this value to move it down */
+    left: 30px; /* Adjust this value to move it right */
+    width: 50px; /* Set width for the logo */
+    height: auto; /* Maintain aspect ratio */
+}
 
+.logo-link {
+    position: absolute;
+    top: 55px; /* Adjust the position from the top */
+    left: 30px; /* Adjust the position from the left */
+}
 header h1 {
     margin: 0;
     font-size: 3em;
@@ -224,9 +236,9 @@ main p {
 }
 
 .service-item img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0px;
     cursor: pointer; /* Indicate that the image is clickable */
 }
 
@@ -267,7 +279,7 @@ main p {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #3498db; /* Button color */
+    background-color: #34db63; /* Button color */
     color: white;
     text-decoration: none;
     border-radius: 5px;
