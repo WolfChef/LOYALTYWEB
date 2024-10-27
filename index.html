@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOYALTY WEBSITE</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Modern Website Design</h1>
+        <p>Clean and Responsive Web Design with CSS</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">All Product</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <h2>About Our Services</h2>
+        <p>We specialize in providing modern and responsive web design services that focus on clean aesthetics and user-friendly interfaces. Our team is dedicated to creating beautiful websites that not only look great but are also functional and scalable.</p>
+
+        <!-- Services Section -->
+        <div class="services">
+            <div class="service-item">
+                <img src="Pictures/gallery-2.jpg" alt="Web Development Icon" class="zoomable" />
+                <h3>Web Development</h3>
+                <p>We build custom websites with cutting-edge technologies to ensure fast performance, security, and SEO optimization.</p>
+            </div> 
+        
+            <div class="service-item">
+                <img src="Pictures/gallery-2.jpg" alt="Graphic Design Icon" class="zoomable" />
+                <h3>Graphic Design</h3>
+                <p>Our design team delivers stunning visuals for your brand, from logos and icons to full-scale website layouts.</p>
+            </div>
+        
+            <div class="service-item">
+                <img src="Pictures/gallery-3.jpg" alt="SEO Optimization Icon" class="zoomable" />
+                <h3>SEO Optimization</h3>
+                <p>We optimize your website to improve visibility on search engines, ensuring that your business reaches a wider audience.</p>
+            </div>
+        
+            <div class="service-item">
+                <img src="Pictures/gallery-4.jpg" alt="Content Creation Icon" class="zoomable" />
+                <h3>Content Creation</h3>
+                <p>Our content creators help you craft compelling copy that engages your audience and drives conversions.</p>
+            </div>
+        </div>
+        
+        <!-- Modal for Image Zoom -->
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="caption"></div>
+            <p id="description" style="color: white; margin-top: 10px;"></p> <!-- This is the description text -->
+            
+            <a id="modalButton" href="#" class="button" target="_blank">Go to Page</a> <!-- This is the button -->
+        </div>
+        
+        
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Modern Website Design. All Rights Reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
